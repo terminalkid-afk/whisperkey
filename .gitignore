@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local environment
+venv/
+.env
+.claude/
+
+# App temporary files
+temp_whisper.wav
+temp_record.wav
+
+# Large model files (we download these via ModelManager)
+assets/*.bin

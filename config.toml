@@ -1,0 +1,4 @@
+# Whisperkey Configuration
+model = "base.en"
+hotkey = "right_option"
+launch_at_login = false

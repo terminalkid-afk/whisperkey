@@ -1,0 +1,16 @@
+[project]
+name = "whisperkey"
+version = "0.1.0"
+description = "Local macOS dictation tool"
+requires-python = ">=3.11"
+dependencies = [
+    "pywhispercpp",
+    "sounddevice",
+    "pynput",
+    "pyperclip",
+    "rumps",
+    "toml",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

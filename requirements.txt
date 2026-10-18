@@ -1,0 +1,10 @@
+pywhispercpp
+sounddevice
+pynput
+pyperclip
+rumps
+toml
+numpy
+soundfile
+requests
+tqdm
